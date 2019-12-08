@@ -7,6 +7,7 @@ var urlsToCache = [
 	'/pwa/',
 	'/pwa/css/style.css',
 	'/pwa/drawer.js'
+	'/pwa/test.html'
 ];
 
 // インストール処理

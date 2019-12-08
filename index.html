@@ -9,8 +9,10 @@
 <script src="./app.js"></script>
 </head>
 <body>
-<button type="button" onclick="hello()">Hello</button>
-<div id="message"></div>
+<form>
+  <button type="button" onclick="this.form.text1.value = 'hello, world'">Hello</button>
+  <input type="text" name="text1">
+</form>
 <script>
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').then(function(registration) {

@@ -1,3 +1,3 @@
 function hello() {
-    document.querySelectAll("#message").innerHtml = "hello, world";
+    document.querySelectorAll("#message").innerHtml = "hello, world";
 }
